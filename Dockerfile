@@ -1,4 +1,4 @@
-FROM runpod/worker-v1-vllm:stable-cuda12.1.0
+FROM runpod/worker-v1-vllm:v2.13.1
 
 ENV MODEL_NAME="ibm-granite/granite-docling-258M"
 ENV MODEL_REVISION="untied"
