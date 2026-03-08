@@ -12,7 +12,7 @@ fi
 : "${RUNPOD_API_KEY:?Set RUNPOD_API_KEY in .env or environment}"
 : "${RUNPOD_ENDPOINT_ID:?Set RUNPOD_ENDPOINT_ID in .env or environment}"
 
-BASE_URL="https://${RUNPOD_ENDPOINT_ID}.api.runpod.ai/openai/v1"
+BASE_URL="https://api.runpod.ai/v2/${RUNPOD_ENDPOINT_ID}/openai/v1"
 AUTH="Authorization: Bearer ${RUNPOD_API_KEY}"
 
 # ── Helpers ──────────────────────────────────────────────────────────────────

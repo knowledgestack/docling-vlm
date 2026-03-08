@@ -1,3 +1,4 @@
+# TODO: this might be slow. llama cpp version might be faster
 FROM runpod/worker-v1-vllm:v2.13.1
 
 ENV MODEL_NAME="ibm-granite/granite-docling-258M"
